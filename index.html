@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Jost:wght@100;200;300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark text-center fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/Bite (2).png" />
+        </a>
+        <!-- toogle btn -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-warning"></span>
+        </button>
+        <!-- side bar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- sidebar header  -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!-- sidebar body  -->
+          <div
+            class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 font-weight-bold"
+          >
+            <ul
+              class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3"
+            >
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Aboutus">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#shop">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Feedback">Feedback</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-dark d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HERO -->
+    <section id="hero" class="d-flex align-items-end">
+      <div class="container-fluid">
+        <div class="row justify content-center">
+          <div class="col text-center">
+            <h3>WE VALUE YOUR CRAVINGS FOR</h3>
+            <h1>Ice cream</h1>
+            <p>Share a scoop of happiness</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-7 offset-5">
+            <a href="#shop" class="main-btn"
+              >Shop Now <i class="bx bx-right-arrow-alt"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Selections  -->
+    <div id="shop" class="row text-center">
+      <div class="col h-100">
+        <p class="text">Exclusive picks for you!</p>
+      </div>
+    </div>
+    <div id="shop now" class="choices">
+      <div class="container text-center">
+        <div class="container-fluid">
+          <div class="row row-cols-4">
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="productMP1.html"
+                ><img
+                  src="ice cream3.jpg"
+                  class="img-fluid rounded-circle w-75"
+                />
+              </a>
+              <div class="row">
+                <div clas="  mt-3">CONE</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="cup.html"
+                ><img src="cup.jpg" class="img-fluid rounded-circle w-75"
+              /></a>
+              <div class="row">
+                <div clas=" mt-3">CUP</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="stick.html"
+                ><img src="stick.jpg" class="img-fluid rounded-circle w-75"
+              /></a>
+
+              <div class="row">
+                <div clas="  mt-3">STICK</div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <a href="Product4.html"
+                ><img
+                  src="./images/ice-cream-transparent-plastic-box_934629-187.jpg"
+                  class="img-fluid rounded-circle w-75"
+              /></a>
+              <div class="row">
+                <div clas=" mt-3">PLASTIC CONTAINER</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about us -->
+    <div>
+      <hr />
+    </div>
+    <div id="Aboutus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-6">
+            <h1 class="text-center">About Us</h1>
+            <p class="myabout">
+              Welcome to Frostbite, where frozen delights meet creativity and
+              quality. We are more than just an ice cream shop; we're your
+              destination for happiness in every scoop. At Frostbite, our story
+              is a tale of passion, flavor, and community. We believe that ice
+              cream is more than just a dessert; it's a timeless joy that brings
+              people together, ignites memories, and adds sweetness to life's
+              moments.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img
+              src="images/photo-ice-cream-with-no-background-with-white_670382-117417.avif"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- feedback-->
+
+    <section id="Feedback">
+      <div class="container mt-5">
+        <h1 class="section-header">
+          Costumers feedback
+          <span>
+            "We value the feedback of our customers, and we're always striving
+            to raise the bar higher."</span
+          >
+        </h1>
+        <div class="comments">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="image-area">
+                          <img src="images/Ryan.jpg" alt="" />
+                        </div>
+                        <div class="bio">
+                          <h2>Ryan Reynolds</h2>
+                          <h4>Security Guard</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="bx bxs-quote-left"></i></span> The
+                          nostalgia factor in their classic vanilla ice cream is
+                          what keeps me coming back. It reminds me of the
+                          homemade ice cream I had as a child. I appreciate that
+                          they focus on quality and simplicity.
+                          <span><i class="bx bxs-quote-right"></i></span>
+                        </p>
+
+                        <p class="socials">
+                          <i class="fab fa-twitter"> </i>
+                          <i class="fab fa-facebook-f"> </i>
+                          <i class="fab fa-youtube"> </i>
+                          <i class="fab fa-instagram"> </i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="image-area">
+                          <img src="images/indian.jpg" alt="" />
+                        </div>
+                        <div class="bio">
+                          <h2>Asshan Hamid</h2>
+                          <h4>Grade 2 pupil</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="bx bxs-quote-left"></i></span> This
+                          ice cream place has the best toppings! I like the
+                          cookies&cream flavor with lots of chocolate on top.
+                          It's like a magical ice cream!
+                          <span><i class="bx bxs-quote-right"></i></span>
+                        </p>
+
+                        <p class="socials">
+                          <i class="fab fa-twitter"> </i>
+                          <i class="fab fa-facebook-f"> </i>
+                          <i class="fab fa-youtube"> </i>
+                          <i class="fab fa-instagram"> </i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="image-area">
+                          <img src="images/redhair.png" alt="" />
+                        </div>
+                        <div class="bio">
+                          <h2>Bella Spheizemr</h2>
+                          <h4>Kindergarten</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="bx bxs-quote-left"></i></span> The
+                          chocolate fudge ice cream is the best. It's so rich
+                          and chocolaty, and I love finding the big chunks of
+                          brownie in every bite!
+                          <span><i class="bx bxs-quote-right"></i></span>
+                        </p>
+
+                        <p class="socials">
+                          <i class="fab fa-twitter"> </i>
+                          <i class="fab fa-facebook-f"> </i>
+                          <i class="fab fa-youtube"> </i>
+                          <i class="fab fa-instagram"> </i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-dark pt-5 pb-4">
+      <div class="container text-center">
+        <div class="row text-center">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">
+              FROSTBITE ICE CREAM
+            </h5>
+            <p class="foottext">
+              Since year 2000, we've been on a mission to craft the most
+              delectable frozen treats that bring a smile to your face. Our
+              artisanal ice cream is made with love and locally sourced
+              ingredients. Visit us today and experience the magic of Frostbite
+              for yourself!
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">corporate</h5>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >About us</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Our Services</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Privacy Policy</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Affiliate Program</a
+              >
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">GET HELP</h5>
+            <p>
+              <a
+                href="Contact.html"
+                class="text-dark"
+                style="text-decoration: none"
+                >FAQ's</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Shipping</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Refunds</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Order Status</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-dark" style="text-decoration: none"
+                >Payment Options</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">follow us</h5>
+            <p><i class="fab fa-facebook-f mr-3"></i> facebook.com</p>
+            <p><i class="fab fa-twitter mr-3"></i> twitter.com</p>
+            <p><i class="fab fa-instagram mr-3"></i> instagram.com</p>
+            <p><i class="fab fa-linkedin-in mr-3"></i> linkedin.com</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center mt-5">
+          <div class="col">
+            <p>
+              copyright@2023 All rights reserved by:
+              <a href="#" style="text-decoration: none">
+                <strong class="myname">Frostbite Ice Cream</strong>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>

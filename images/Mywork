@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My 3rd Web Page 09/27/2023</title>
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+  </head>
+
+  <body>
+    <p><img src="../images/Ruth.jpg" alt="" /></p>
+    <p class="Myname">@Ruth Navarro</p>
+    <p>I want to be a full-stack web developer</p>
+    <p>
+      I want to graduate as soon as possible so that I can look for better
+      possibilities or a career to support my family and myself. Hopefully, I'll
+      be able to complete my coursework in December.
+    </p>
+
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="company/about.html">other page</a>
+    <br />
+    <br />
+    <br />
+
+    <table border="1px">
+      <tr>
+        <th>Last name</th>
+        <th>First name</th>
+        <th colspan="2">Middle name</th>
+      </tr>
+
+      <td>Navarro</td>
+      <td>Ruth</td>
+      <td>Caduan</td>
+      <td>bfrhv</td>
+    </table>
+
+    <button class="youtube">
+      <a href="https://youtube.com" target="_blank">Youtube</a>
+    </button>
+
+    <dl>
+      <dt>coffee</dt>
+      <dd style="list-style-type: square">
+        <li>
+          drink made from the roasted and ground seeds (coffee beans) of a
+          tropical shrub.
+        </li>
+      </dd>
+    </dl>
+
+    <input type="text" />
+    <input type="file" />
+    <input type="checkbox" />
+    <input type="submit" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <ul>
+      <li>example1</li>
+      <li>example2</li>
+      <li>example3</li>
+      <li>example3</li>
+    </ul>
+    <br />
+    <br />
+    <br />
+    <br />
+    <textarea> </textarea>\<br />
+
+    <div class="main"></div>
+    <!-- <iframe  -->
+    width="560" height="315"
+    src="https://www.youtube.com/embed/S_vibqw4-rE?si=_egFwcedJhAkAuth"
+    title="Sitio Kapihan" frameborder="0" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    <!-- allowfullscreen > -->
+    <!--contactb us -->
+    <div class="container text-center">
+      <div class="row row-cols-2">
+        <div class="col">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et odio
+            totam corporis excepturi eum commodi praesentium tempora earum
+            possimus dolor culpa ut quas, neque provident at omnis aliquam
+            repudiandae. Quidem?
+          </p>
+          <div class="row">
+            <div clas="col">
+              <a href="productMP1.html"
+                ><img src="images/mappie.jpg" class="img-fluid" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint
+            excepturi similique ipsa neque molestias voluptatem nisi, sunt
+            eveniet vel laborum tenetur accusamus commodi quae nam possimus quos
+            veritatis delectus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
